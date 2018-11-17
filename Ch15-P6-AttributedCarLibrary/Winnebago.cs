@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Ch15_P6_AttributedCarLibrary
 {
-    public class Class1
+
+    public class Winnebago
     {
+
     }
 }
