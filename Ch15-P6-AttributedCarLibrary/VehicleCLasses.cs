@@ -8,7 +8,7 @@ namespace Ch15_P6_AttributedCarLibrary
 {
     // Assign description using a "named property."
     [Serializable]
-    [VehicleDescription(Description = "My rocking Harley")]
+    [VehicleDescription(Description ="")]
     public class Motorcycle
     {
     }
@@ -23,7 +23,7 @@ namespace Ch15_P6_AttributedCarLibrary
     [VehicleDescription("A very long, slow, but feature-rich auto")]
     public class Winnebago
     {
-        [VehicleDescription("My Rocking CD Player")]
+        //[VehicleDescription("My Rocking CD Player")]
         public void PlayMusic(bool on)
         {
 
